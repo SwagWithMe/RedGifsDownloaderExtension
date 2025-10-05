@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "RedGifs Download Button",
+    "version": "1.3.3.7",
+    "description": "Adds a download button to RedGifs videos.",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.redgifs.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ]
+}
