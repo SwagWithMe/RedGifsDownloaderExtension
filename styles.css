@@ -1,0 +1,44 @@
+.rg-download-btn {
+    display: block !important;
+    margin: 10px 0 !important;
+    padding: 8px 16px !important;
+    background-color: #007bff !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+    font-size: 16px !important;
+    text-align: center !important;
+    z-index: 10000 !important;
+    position: relative !important;
+    width: fit-content !important;
+    box-sizing: border-box !important;
+}
+
+.rg-download-btn:hover {
+    background-color: #0056b3 !important;
+}
+
+.rg-telegram-ad {
+    display: block !important;
+    margin: 10px 0 !important;
+    font-size: 14px !important;
+    color: #0088cc !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    animation: pulse 2s infinite !important;
+    z-index: 10000 !important;
+    position: relative !important;
+    width: fit-content !important;
+}
+
+.rg-telegram-ad:hover {
+    color: #005f8a !important;
+    text-decoration: underline !important;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.6; }
+    100% { opacity: 1; }
+}
